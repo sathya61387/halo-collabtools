@@ -11,8 +11,8 @@ Metadata:
           - AvailabilityZones
           - PrivateSubnet1CIDR
           - PrivateSubnet2CIDR
-          - PrivateSubnet3CIDR
-          - PrivateSubnet4CIDR
+          # - PrivateSubnet3CIDR
+          # - PrivateSubnet4CIDR
           - PublicSubnet1CIDR
           - PublicSubnet2CIDR
           - VPCCIDR
@@ -49,10 +49,10 @@ Metadata:
         default: Private Subnet 1 CIDR
       PrivateSubnet2CIDR:
         default: Private Subnet 2 CIDR
-      PrivateSubnet3CIDR:
-        default: Private Subnet 3 CIDR
-      PrivateSubnet4CIDR:
-        default: Private Subnet 4 CIDR
+      # PrivateSubnet3CIDR:
+      #   default: Private Subnet 3 CIDR
+      # PrivateSubnet4CIDR:
+      #   default: Private Subnet 4 CIDR
       PublicSubnet1CIDR:
         default: Public Subnet 1 CIDR
       PublicSubnet2CIDR:
@@ -209,8 +209,8 @@ Resources:
         NumberOfAZs: '2'
         PrivateSubnet1ACIDR: !Ref 'PrivateSubnet1CIDR'
         PrivateSubnet2ACIDR: !Ref 'PrivateSubnet2CIDR'
-        PrivateSubnet3ACIDR: !Ref 'PrivateSubnet3CIDR'
-        PrivateSubnet4ACIDR: !Ref 'PrivateSubnet4CIDR'
+        # PrivateSubnet3ACIDR: !Ref 'PrivateSubnet3CIDR'
+        # PrivateSubnet4ACIDR: !Ref 'PrivateSubnet4CIDR'
         PublicSubnet1CIDR: !Ref 'PublicSubnet1CIDR'
         PublicSubnet1CIDR: !Ref 'PublicSubnet1CIDR'
         PublicSubnet2CIDR: !Ref 'PublicSubnet2CIDR'
