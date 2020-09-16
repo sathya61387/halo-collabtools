@@ -2,7 +2,7 @@
   "Parameters":{
     "AccessCIDR" :    "172.0.0.0/16",
     "AvailabilityZones" : "eu-west-2a,eu-west-2b",
-    "ExportPrefix" : "HALO-",
+    "ExportPrefix" : "HALO-ASI",
     "BastionHostRequired" : "false",
     "NATInstanceType" : "t3.small",
     "PrivateSubnet1CIDR" : "172.0.0.0/19",
